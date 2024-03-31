@@ -1,0 +1,22 @@
+@model virtual_fitness_coach.Models.View.Login
+@{
+    ViewData["Title"] = "User Login";
+}
+
+<div class="container h-100 d-flex justify-content-center align-items-center">
+    <form method="post" class="w-50">
+        <h2 class="pb-3 text-center">Welcome Back</h2>
+        <div class="mb-3">
+            <label for="" class="form-label">Email</label>
+            <input type="email" name="" class="form-control" placeholder="Enter email"/>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Password</label>
+            <input type="password" name="" class="form-control" placeholder="Enter passsword"/>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <a href="" class="nav-link p-0 pb-1 d-block ms-auto">Forgot Password?</a>
+        <button class="btn btn-dark px-5">Login</button>
+    </form>
+</div>

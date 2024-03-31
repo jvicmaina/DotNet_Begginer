@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Virtual Fitness Coach - Home";
+}
+
+<section id="slider" class="h-100 w-100 p-0 m-0 carousel slide slider" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner h-100">
+    <div class="carousel-item h-100 active">
+      <div class="overlay">
+        <div class="container">
+          <h1 class="text-yellow">Discover how<span>Workouts work</span></h1>
+          <p>We help our trainees dive into the science behind effective workouts to unleash their full potential. Get ready to revolutionize your fitness journey with us.</p>
+        </div>
+      </div>
+      <img src="~/img/02.jpg" class="d-block w-100 h-100 " alt="...">
+    </div>
+    <div class="carousel-item h-100">
+      <div class="overlay">
+        <div class="container">
+          <h1 class="text-yellow">Self paced<span>Fitness Routines</span></h1>
+          <p>Take control of your fitness journey with our self-paced fitness training routines! Enjoy the freedom to exercise on your own terms, at your own pace.</p>
+        </div>
+      </div>
+      <img src="~/img/01.jpg" class="d-block w-100 h-100" alt="...">
+    </div>
+  </div>
+</section>
+
+<section class="container py-5" id="fitness-challange">
+  <div class="row">
+    <div class="col-6">
+      <h2>Reward your effort &amp; skills while building yourself</h2>
+      <p class="lead">Join our fitness challanges and engage your peers to win points which you can then redeem for cash, vouchers among other exciting gifts.</p>
+    </div>
+    <div class="col-6 px-4">
+      <div class="w-100 h-100 bg-dark reward_banner">
+        <img src="~/img/03.jpg" class="block w-100 h-100" alt="..."/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container pt-5" id="contacts">
+  <h2 class="text-center pb-5">How can we help?</h2>
+  <div class="row">
+    <div class="col-6 px-4">
+      <h2 class="mb-3">Contact details</h2>
+      <div class="social-links">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.whatsapp.com" target="_blank">Whatsapp</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+      </div>
+    </div>
+    <div class="col-6">
+      <form>
+        <div class="form-group mb-3">
+          <label for="">Email</label>
+          <input type="email" class="form-control"/>
+        </div>
+        <div class="form-group mb-3">
+          <label for="">Subject</label>
+          <input type="text" class="form-control"/>
+        </div>
+        <div class="form-group mb-3">
+          <label for="">Message</label>
+          <textarea class="form-control"></textarea>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
